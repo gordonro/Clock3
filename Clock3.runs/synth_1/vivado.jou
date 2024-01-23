@@ -1,14 +1,14 @@
 #-----------------------------------------------------------
-# Vivado v2023.2.1 (64-bit)
-# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
-# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
-# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
-# Start of session at: Sun Jan  7 21:04:41 2024
-# Process ID: 6884
-# Current directory: C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.runs/synth_1
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jan 23 22:39:22 2024
+# Process ID: 20704
+# Current directory: C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.runs/synth_1
 # Command line: vivado.exe -log AND_GATE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source AND_GATE.tcl
-# Log file: C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.runs/synth_1/AND_GATE.vds
-# Journal file: C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.runs/synth_1\vivado.jou
+# Log file: C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.runs/synth_1/AND_GATE.vds
+# Journal file: C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.runs/synth_1\vivado.jou
 # Running On: OXPS, OS: Windows, CPU Frequency: 3187 MHz, CPU Physical cores: 16, Host memory: 34070 MB
 #-----------------------------------------------------------
 source AND_GATE.tcl -notrace

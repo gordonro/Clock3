@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.runs/synth_1/AND_GATE.tcl"
+  variable script "C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.runs/synth_1/AND_GATE.tcl"
   variable category "vivado_synth"
 }
 
@@ -78,15 +78,15 @@ create_project -in_memory -part xc7z020clg400-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.cache/wt [current_project]
-set_property parent.project_path C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.cache/wt [current_project]
+set_property parent.project_path C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.cache/ip [current_project]
+set_property ip_output_repo c:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/sources_1/new/AND_GATE.vhd
+read_vhdl -library xil_defaultlib C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.srcs/sources_1/new/AND_GATE.vhd
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -96,15 +96,15 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/constrs_1/imports/temp_project_2/pynq_z2.xdc
-set_property used_in_implementation false [get_files C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/constrs_1/imports/temp_project_2/pynq_z2.xdc]
+read_xdc C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.srcs/constrs_1/imports/temp_project_2/pynq_z2.xdc
+set_property used_in_implementation false [get_files C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.srcs/constrs_1/imports/temp_project_2/pynq_z2.xdc]
 
-read_xdc C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/constrs_1/new/AND_Constraints.xdc
-set_property used_in_implementation false [get_files C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/constrs_1/new/AND_Constraints.xdc]
+read_xdc C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.srcs/constrs_1/new/AND_Constraints.xdc
+set_property used_in_implementation false [get_files C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.srcs/constrs_1/new/AND_Constraints.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/utils_1/imports/synth_1/AND_GATE.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/gordo/Dropbox/Xilinx/Projects/Clock3/Clock3.srcs/utils_1/imports/synth_1/AND_GATE.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

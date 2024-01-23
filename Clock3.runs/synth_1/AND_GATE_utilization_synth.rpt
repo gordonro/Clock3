@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2023.2.1 (win64) Build 4081461 Thu Dec 14 12:24:51 MST 2023
-| Date         : Sun Jan  7 21:05:06 2024
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Tue Jan 23 22:39:55 2024
 | Host         : OXPS running 64-bit major release  (build 9200)
 | Command      : report_utilization -file AND_GATE_utilization_synth.rpt -pb AND_GATE_utilization_synth.pb
 | Design       : AND_GATE
@@ -34,8 +34,8 @@ Table of Contents
 | Slice LUTs*             |    1 |     0 |          0 |     53200 | <0.01 |
 |   LUT as Logic          |    1 |     0 |          0 |     53200 | <0.01 |
 |   LUT as Memory         |    0 |     0 |          0 |     17400 |  0.00 |
-| Slice Registers         |    1 |     0 |          0 |    106400 | <0.01 |
-|   Register as Flip Flop |    1 |     0 |          0 |    106400 | <0.01 |
+| Slice Registers         |    3 |     0 |          0 |    106400 | <0.01 |
+|   Register as Flip Flop |    3 |     0 |          0 |    106400 | <0.01 |
 |   Register as Latch     |    0 |     0 |          0 |    106400 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |     26600 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |     13300 |  0.00 |
@@ -57,7 +57,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
-| 1     |          Yes |           - |        Reset |
+| 3     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
 | 0     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -149,9 +149,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | IBUF     |    4 |                  IO |
+| FDCE     |    3 |        Flop & Latch |
 | OBUF     |    1 |                  IO |
 | LUT2     |    1 |                 LUT |
-| FDCE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 

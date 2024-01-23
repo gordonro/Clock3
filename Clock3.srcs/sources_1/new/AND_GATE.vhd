@@ -47,15 +47,23 @@ entity AND_GATE is
 end AND_GATE;
 
 architecture RTL of AND_GATE is
+signal a1: STD_LOGIC;
+signal b1: STD_LOGIC;
+signal c1: STD_LOGIC;
 
 begin
-
-process(CLK_IN, rst, a, b)
+process(CLK_IN, rst, a, b, a1, b1)
 begin
+
+
 if rst = '1' then
     c <= '0';
+    a1 <= '0';
+    b1 <= '0';
 elsif CLK_IN'event and CLK_IN ='1' then
-    c <= a AND b;
+    a1 <= a;
+    b1 <= b;
+    c <= a1 AND b1;
 end if;
 end process;    
 

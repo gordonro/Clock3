@@ -1,6 +1,6 @@
 -------------------------------------
-| Tool Version : Vivado v.2023.2.1
-| Date         : Mon Jan  8 15:49:14 2024
+| Tool Version : Vivado v.2023.2
+| Date         : Tue Jan 23 22:40:20 2024
 | Host         : OXPS
 | Design       : design_1
 | Device       : xc7z020-clg400-1--
