@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"AND_GATE_tb_func_impl.vhd" \
+"../../../../../project_Clocked_AND_PZ2.srcs/sim_1/new/AND_tb.vhd" \
+
+# Do not sort compile order
+nosort

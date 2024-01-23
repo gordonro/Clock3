@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.sim/sim_1/impl/func/xsim/AND_GATE_tb_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AND_GATE'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.srcs/sim_1/new/AND_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AND_GATE_tb'

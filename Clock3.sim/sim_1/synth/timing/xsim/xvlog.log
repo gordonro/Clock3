@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gordo/Dropbox/Xilinx/Projects/project_Clocked_AND_PZ2/project_Clocked_AND_PZ2.sim/sim_1/synth/timing/xsim/AND_GATE_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-311] analyzing module glbl
